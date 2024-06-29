@@ -1,7 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 import { type } from "os";
 
-const userSchema = new Schema({
+const userSchema = new mongoose.Schema({
     username:{
         type:String,
         require:true,

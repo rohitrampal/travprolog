@@ -1,1 +1,1 @@
-export const DB_NAME = "travprolog"
+export const DB_NAME = "travprologger"
